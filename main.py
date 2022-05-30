@@ -48,7 +48,7 @@ async def search(ctx, *,search):
     randomlist = random.randint(0, 9)
     resource = build("customsearch", "v1", developerKey=api_key).cse()
     result = resource.list(
-        q=f"{search}", cx="9d5a2b9a4430a335f", searchType="image"
+        q=f"{search}", cx="ID cse.google.com", searchType="image"
     ).execute()
     url = result["items"][randomlist]["link"]
     embed = discord.Embed(title=f"Ảnh {temp}")
