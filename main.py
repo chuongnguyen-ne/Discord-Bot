@@ -14,7 +14,7 @@ intents.members = True
 intents.guilds = True
 
 bot = Bot(command_prefix=".", intents=intents);
-token = "OTc5OTUwMDA1NDEyNTg5NTcw.GvPDUD.znSzLdWCIhUZ4Z_quTE_AMfgtIhl7S7QSlOd5E"
+token = "" #Token here
 
 @bot.event
 async def on_ready():
