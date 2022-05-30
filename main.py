@@ -7,7 +7,7 @@ from googleapiclient.discovery import build
 import json
 
 
-api_key="AIzaSyCrirDLATf_s1YloBRGMV6AaqeUfq2cI2g"
+api_key="API CUSTOM SEARCH from cloud google"
 
 intents = discord.Intents.default()
 intents.members = True
